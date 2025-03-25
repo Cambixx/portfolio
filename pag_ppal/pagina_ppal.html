@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ================ FAVICON ================= -->
+    <link rel="shortcut icon" href="./assets/img/Carlos.PNG" type="image/png" />
+
+    <!-- ================ REMIXICONS ================= -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ================ SWIPER CSS ================= -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    
+    <!-- ================ CSS ================= -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Carlos Rábago Portfolio</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="./assets/img/Carlos.PNG" alt="">
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-2-line"></i> >_ Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="ri-trophy-line"></i> >_ Habilidades
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="ri-book-2-line"></i> >_ Estudios
+              </a>
+            </li>
+
+            <!-- <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="ri-briefcase-2-line"></i> Servicios
+              </a>
+            </li> -->
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="ri-gallery-line"></i> >_ Proyectos
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-message-2-line"></i> >_ Contacto
+              </a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!-- Theme chage button -->
+          <i class="ri-moon-clear-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              CARLOS RÁBAGO
+            </h1>
+          
+            <div class="home__blob grid">
+              <div class="home__perfil">
+                <canvas id="canvas1"></canvas>
+                <img class="perfil__claro" src="./assets/img/FP53_1.png" alt="home perfil">
+                <img class="perfil__oscuro" src="./assets/img/FP512_1.png" alt="home perfil">
+              </div>
+
+              <!-- <img src="" alt="" class="home__shape-waves"> -->
+              <!-- <img src="" alt="" class="home__shape-circle"> -->
+            </div>
+
+            <ul class="home__social">
+              <a href="https://www.linkedin.com/in/carlos-miguel-r%C3%A1bago-torcates-2a5447208/" target="_blank" class="home__social-link">
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+
+              <a href="https://github.com/Cambixx" target="_blank" class="home__social-link">
+                <i class="ri-github-line"></i>
+              </a>
+
+              <a href="https://twitter.com/Cambix" target="_blank" class="home__social-link">
+                <i class="ri-twitter-line"></i>
+              </a>
+            </ul>
+            <div class="cont_frase">
+              <h5 class="frase"></h5>
+              <h5 class="autor"></h5>
+              <h5 class="otraFrase">( Otra frase? pulsa &#128073; <span class="boton_frase"> &#128521; </span>)</h5>
+            </div>
+          </div>
+
+          <!--==================== HOME INFO 1 ====================-->
+          <div class="home__info">
+            <div>
+              <p class="home__info-description">
+                Hola, soy Carlos, Desarrollador de Aplicaciones Web. <br>
+                <p class="frase">Desarrollar y ser creativo es mi pasión.</p>
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">
+                CONTACTO
+              </h3>
+
+              <p class="home__info-description">
+                Madrid, España <br>
+                carlosmiguel40@gmail.com
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">
+                SERVICIOS
+              </h3>
+
+              <p class="home__info-description">
+                Desarrollo Web<br>
+                Diseño UI/UX <br>
+                Diseño Web
+              </p>
+            </div>
+          </div>
+
+          <!--==================== HOME INFO 2 ====================-->
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">
+                AÑOS DE EXPERIENCIA
+              </h3>
+
+              <p class="home__info-number">
+                4+
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">
+                PROYECTOS
+              </h3>
+
+              <p class="home__info-number">
+                10+
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">
+                TRABAJOS PARTICULARES
+              </h3>
+
+              <p class="home__info-number">
+                2
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Habilidades</h2>
+        <span class="section__subtitle">Mis Habilidades Favoritas</span>
+
+        <div class="skills__container container grid section__border">
+          <!--==================== SKILLS 1 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-code-s-slash-line"></i> Desarrollo
+            </h3>
+
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/html-1.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">HTML</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/css-3.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">CSS</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/logo-javascript.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">JavaScript</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+              
+              <!-- <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/react-2.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">React</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div> -->
+              
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/angular-icon-1.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">Angular</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/git-icon.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">Git</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/java-4.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">Java</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/mysql.png" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">MySQL</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SKILLS 2 ====================-->
+
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-edit-line"></i> Diseño
+            </h3>
+
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/figma-1.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">Figma</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/spline.png" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">Spline</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/adobe-photoshop-2.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">PhotoShop</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/threejs.png" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">ThreeJs</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/gsap.png" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">GSAP</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+
+              <!-- <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/java-4.svg" alt="skills image">
+                </div>
+
+                <h3 class="skills__name">Java</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div> -->
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">Estudios</h2>
+        <span class="section__subtitle">Educación</span>
+
+        <div class="qualification__container container grid section__border">
+          <!--==================== QUALIFICATION 1 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-ruler-line"></i> Educación
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">
+                  Ingeniería Industrial
+                </h3>
+                <span class="qualification__country">Universidad Yacambú - Venezuela</span>
+                <span class="qualification__year">2001 - 2007</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">
+                  Desarrollo de Aplicaciones Web
+                </h3>
+                <span class="qualification__country">Edix - España</span>
+                <span class="qualification__year">2021 - 2023</span>
+              </div>
+
+              <!-- !FALTA POR COMPLETAR -->
+              <!-- <div>
+                <h3 class="qualification__name">
+
+                </h3>
+                <span class="qualification__country"></span>
+                <span class="qualification__year"></span>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- !FALTA POR COMPLETAR ?? -->
+          <!--==================== QUALIFICATION 2 ====================-->
+          <!-- <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-building-2-line"></i>Experiencia Laboral
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">
+
+                </h3>
+                <span class="qualification__country"></span>
+                <span class="qualification__year"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">
+
+                </h3>
+                <span class="qualification__country"></span>
+                <span class="qualification__year"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">
+
+                </h3>
+                <span class="qualification__country"></span>
+                <span class="qualification__year"></span>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <img src="./assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <!-- <section class="services section" id="services">
+        <h2 class="section__title">Servicios</h2>
+        <span class="section__subtitle">Lo que Ofrezco</span>
+
+        <div class="services__container container grid section__border">
+          <div class="services__card">
+            <i class="ri-code-s-slash-line"></i>
+
+            <h2 class="services__title">
+              Desarrollo
+            </h2>
+
+            <p class="services__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam corporis dolorum eius in? Explicabo repellendus
+            </p>
+
+            <div class="services__border"></div>
+          </div>
+
+          <div class="services__card">
+            <i class="ri-layout-3-line"></i>
+
+            <h2 class="services__title">
+              Diseño <br>
+              UI/UX
+            </h2>
+
+            <p class="services__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam corporis dolorum eius in? Explicabo repellendus
+            </p>
+
+            <div class="services__border"></div>
+          </div>
+
+          <div class="services__card">
+            <i class="ri-edit-line"></i>
+
+            <h2 class="services__title">
+              Diseño Web
+            </h2>
+
+            <p class="services__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam corporis dolorum eius in? Explicabo repellendus
+            </p>
+
+            <div class="services__border"></div>
+          </div>
+        </div>
+      </section> -->
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Proyectos</h2>
+        <span class="section__subtitle">Trabajos mas recientes</span>
+
+        <div class="container section__border">
+          <div class="projects__container swiper">
+            <div class="swiper-wrapper">
+              
+              <!--==================== PROJECT 3 ====================-->
+              <div class="projects__content swiper-slide">
+                <a href="https://carlos-sony.netlify.app/" target="_blank" class="projects__button">
+                  <img src="./assets/img/proyectoSony2.png" alt="projects image" class="projects__img">
+                </a>
+                <div>
+                  <span class="projects__subtitle">Website</span>
+                  <h1 class="projects__title">Sony Headphones</h1>
+
+                  <a href="https://carlos-sony.netlify.app/" class="projects__button">
+                    Ver demo <i class="ri-arrow-right-s-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECT 4 ====================-->
+              <div class="projects__content swiper-slide">
+                <a href="https://carlos-gym.netlify.app/" target="_blank" class="projects__button">
+                  <img src="./assets/img/proyectoGym2.png" alt="projects image" class="projects__img">
+                </a>
+                <div>
+                  <span class="projects__subtitle">Website</span>
+                  <h1 class="projects__title">The GYM</h1>
+
+                  <a href="https://carlos-gym.netlify.app/" class="projects__button">
+                    Ver demo <i class="ri-arrow-right-s-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECT 5 ====================-->
+              <div class="projects__content swiper-slide">
+                <a href="https://leuman.netlify.app/" target="_blank">
+                  <img src="./assets/img/proyectoManu.png" alt="projects image" class="projects__img">
+                </a>
+                <div>
+                  <span class="projects__subtitle">Website</span>
+                  <h1 class="projects__title">LEUMAN Website</h1>
+
+                  <a href="https://leuman.netlify.app/" class="projects__button">
+                    Ver demo <i class="ri-arrow-right-s-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECT 6 ====================-->
+              <div class="projects__content swiper-slide">
+                <a href="https://zapatillas-1.netlify.app/" target="_blank">
+                  <img src="./assets/img/proyectoZapas2.png" alt="projects image" class="projects__img">
+                </a>
+                <div>
+                  <span class="projects__subtitle">Website</span>
+                  <h1 class="projects__title">Ecomerce Tienda</h1>
+
+                  <a href="https://zapatillas-1.netlify.app/" class="projects__button">
+                    Ver demo <i class="ri-arrow-right-s-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECT 1 ====================-->
+              <div class="projects__content swiper-slide">
+                <a href="https://carlos-clima.netlify.app/" target="_blank">
+                  <img src="./assets/img/proyectoClima.png" alt="projects image" class="projects__img">
+                </a>
+                <div>
+                  <span class="projects__subtitle">App</span>
+                  <h1 class="projects__title">APP Clima</h1>
+
+                  <a href="https://carlos-clima.netlify.app/" class="projects__button">
+                    Ver demo <i class="ri-arrow-right-s-line"></i>
+                  </a>
+                </div>
+              </div>
+              
+              <!--==================== PROJECT 2 ====================-->
+              <div class="projects__content swiper-slide">
+                <a href="https://carlos-horoscopo.netlify.app/" target="_blank">
+                  <img src="./assets/img/proyectoHoroscopo.png" alt="projects image" class="projects__img">
+                </a>
+                <div>
+                  <span class="projects__subtitle">App</span>
+                  <h1 class="projects__title">APP Horoscopo</h1>
+
+                  <a href="https://carlos-horoscopo.netlify.app/" class="projects__button">
+                    Ver demo <i class="ri-arrow-right-s-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECT 7 ====================-->
+              <!-- <div class="projects__content swiper-slide">
+                <a href="https://carlos-joker.netlify.app/" target="_blank">
+                  <img src="./assets/img/proyectoJoker.png" alt="projects image" class="projects__img">
+                </a>
+                <div>
+                  <span class="projects__subtitle">Intro web</span>
+                  <h1 class="projects__title">Joker Intro</h1>
+
+                  <a href="https://carlos-joker.netlify.app/" class="projects__button">
+                    Ver demo <i class="ri-arrow-right-s-line"></i>
+                  </a>
+                </div>
+              </div> -->
+              
+              <!--==================== PROJECT 9 ====================-->
+              <div class="projects__content swiper-slide">
+                <a href="https://carlos-chistes.netlify.app/" target="_blank">
+                  <img src="./assets/img/proyectoChistes.png" alt="projects image" class="projects__img">
+                </a>
+                <div>
+                  <span class="projects__subtitle">Chistes</span>
+                  <h1 class="projects__title">APP Chistes</h1>
+
+                  <a href="https://carlos-chistes.netlify.app/" class="projects__button">
+                    Ver demo <i class="ri-arrow-right-s-line"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Swiper arrows -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Swiper pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <!-- !Copiar del respaldo -->
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contáctame</h2>
+        <span class="section__subtitle">Ponte en contacto</span>
+
+        <div class="contact__container container grid section__border">
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-chat-1-line"></i> Habla conmigo
+            </h3>
+
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact__data-title">Email</span>
+                <span class="contact__data-info">carlosmiguel40@gmail.com</span>
+                <a href="mailto:carlosmiguel40@gmail.com" class="contact__button" target="_blank">
+                  Escribeme <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title">Discord</span>
+                <span class="contact__data-info">CarlosMiguel#6336</span>
+
+                <a href="" class="contact__button" target="_blank">
+                  Escribeme <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+
+              <!-- <div class="contact__data">
+                <span class="contact__data-title"></span>
+                <span class="contact__data-info"></span>
+
+                <a href="" class="contact__button">
+                  Escribeme
+                </a>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-send-plane-2-line"></i> Envia tu mensaje
+            </h3>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Nombre</label>
+                <input type="text" name="user_name" required placeholder="Tu nombre" class="contact__form-input" id="contact-name">
+              </div>
+              
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Email</label>
+                <input type="email" name="user_email" required placeholder="Tu Email" class="contact__form-input" id="contact-email">
+              </div>
+              
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Mensaje</label>
+                <textarea name="user_project" placeholder="Escribe tu mensaje" id="contact-project" class="contact__form-input"></textarea>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button">
+                Enviar <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Carlos Rábago</h1>
+        <p>Desarrollador de Aplicaciones Web</p>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          
+          <li>
+            <a href="#skills" class="footer__link">Habilidades</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="footer__link">Proyectos</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a href="https://www.linkedin.com/in/carlos-miguel-r%C3%A1bago-torcates-2a5447208/" target="_blank" class="footer__social-link">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          
+          <a href="https://github.com/Cambixx" target="_blank" class="footer__social-link">
+            <i class="ri-github-line"></i>
+          </a>
+          
+          <a href="https://twitter.com/Cambix" target="_blank" class="footer__social-link">
+            <i class="ri-twitter-line"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Copyright Carlos Rábago. All rights reserved.
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src=""></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- ================ SCROLLREVEAL ================= -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!-- ================ SWIPER JS ================= -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- ================ GSAP ================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Flip.min.js"></script>
+
+    <!-- ================ APP JS ================= -->
+    <script src="./assets/js/app.js"></script>
+
+    <!-- ============ Google tag (gtag.js) ============= -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSC9ZJY5D9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NSC9ZJY5D9');
+    </script>
+  </body>
+</html>

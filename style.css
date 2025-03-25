@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#canvas1 {
+  position: absolute;
+  background: radial-gradient(circle, rgba(150,150,150,1) 0%, rgba(10,10,10,1) 100%);
+  animation: animacionLogo1 2.5s ease-in-out infinite;
+  display: block;
+}
+
+.controls {
+  position: absolute;
+  z-index: 100;
+}
+
+img {
+  display: none;
+}
+
+@keyframes animacionLogo1 {
+  0% {
+    scale: 1;
+  }
+  /* 14% {
+    scale: 1.025;
+  } */
+  /* 15% {
+    scale: 1.01;
+  }
+  49% {
+    scale: 1.01;
+  } */
+  50% {
+    scale: 1.025;
+  }
+  /* 99% {
+    scale: 1;
+  } */
+  100% {
+    scale: 1;
+  }
+}
