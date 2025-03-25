@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box;overflow:hidden}#canvas1{position:absolute;background:radial-gradient(circle,#969696,#0a0a0a);animation:animacionLogo1 2.5s ease-in-out infinite;display:block}.controls{position:absolute;z-index:100}img{display:none}@keyframes animacionLogo1{0%{scale:1}50%{scale:1.025}to{scale:1}}
